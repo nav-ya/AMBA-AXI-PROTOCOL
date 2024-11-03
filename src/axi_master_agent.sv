@@ -3,8 +3,7 @@ class axi_master_agent extends uvm_agent;
 	function new(string name="",uvm_component parent= null);
 		super.new(name,parent);
 	endfunction
-	// include master_agent   coverage & scoreboard
-	axi_sequencer  seqr;
+        axi_sequencer  seqr;
 	axi_master_driver  mdrv;
 	axi_monitor   mon;
 	function void build_phase(uvm_phase phase);

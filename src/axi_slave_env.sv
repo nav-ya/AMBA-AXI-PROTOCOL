@@ -1,5 +1,5 @@
 class axi_slave_env extends uvm_env;
-	`uvm_component_utils(axi_slave_env)//factory registration
+	`uvm_component_utils(axi_slave_env)
 	function new(string name="",uvm_component parent= null);
 		super.new(name,parent);
 	endfunction

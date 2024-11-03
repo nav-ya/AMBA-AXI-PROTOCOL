@@ -3,7 +3,6 @@ class axi_master_env extends uvm_env;
 	function new(string name="",uvm_component parent= null);
 		super.new(name,parent);
 	endfunction
-	// include master_agent   coverage & scoreboard
 	axi_master_agent agent;
 	axi_coverage    cov;
 	axi_scoreboard   sco;
